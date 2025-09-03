@@ -12,6 +12,7 @@
   .input-item input::placeholder {
     font-size: 13px;
   }
+
   .hero-word h1 {
     font-size: 28px;
     margin-top: 20px;
@@ -109,6 +110,9 @@
   .input-item {
     width: 350px;
   }
+  .hero-area {
+  height: 70vh;
+ }
   .hero-word h1 {
     font-size: 34px;
     margin-top: 25px;
@@ -187,6 +191,9 @@
     font-size: 35px;
     margin-top: 30px;
   }
+    .hero-area {
+  height: 40vh;
+ }
   .hero-word p {
     font-size: 16px;
   }
