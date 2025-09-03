@@ -12,6 +12,9 @@
   .input-item input::placeholder {
     font-size: 13px;
   }
+  .hero-area {
+  height: 100vh;
+ }
 
   .hero-word h1 {
     font-size: 28px;
@@ -43,7 +46,7 @@
   }
   .left-side .input-item {
     width: 330px;
-    margin-left: 15px;
+    margin-left: 8px;
     margin-bottom: 10px;
   }
   .left-app-bottom {
@@ -111,7 +114,7 @@
     width: 350px;
   }
   .hero-area {
-  height: 70vh;
+  height: 80vh;
  }
   .hero-word h1 {
     font-size: 34px;
@@ -192,7 +195,7 @@
     margin-top: 30px;
   }
     .hero-area {
-  height: 40vh;
+  height: 60vh;
  }
   .hero-word p {
     font-size: 16px;
