@@ -1,0 +1,284 @@
+/* Extra small devices (max 575.98px) */
+@media only screen and (max-width: 575.98px) {
+  .prime-nav {
+    padding: 10px;
+  }
+  .input-item {
+    width: 250px;
+  }
+  .left-side {
+    margin-left: 15px;
+  }
+  .input-item input::placeholder {
+    font-size: 13px;
+  }
+  .hero-word h1 {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  .Supported-heading {
+    display: none;
+    width: 300px;
+    height: 28px;
+    margin-top: 5px;
+  }
+  .Supported-heading p {
+    font-size: 13px;
+    padding-top: 4px;
+  }
+  .row .left-side {
+    margin-top: 10px;
+  }
+  .hero-word p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 8px;
+    line-height: 150%;
+    letter-spacing: 120%;
+  }
+  .hero-area .right-side {
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .left-side .input-item {
+    width: 330px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  .left-app-bottom {
+    display: none;
+  }
+  .right-side .left-app-bottom {
+    display: block;
+  }
+  /* Dedstination Section  */
+  .destination {
+    margin-top: 200px;
+    padding-top: 30px;
+  }
+  .destination .top-heading h1 {
+    font-size: 20px;
+  }
+  .destination .top-heading p {
+    font-size: 16px;
+  }
+  .new-search input {
+    margin-top: 25px;
+  }
+  .new-search {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .new-search .search-icon {
+    top: 62%;
+  }
+  .river-works h1 {
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+  .river-works p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 10px;
+    margin-top: 16px;
+  }
+  .river-works-btn {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .river-works .number-top {
+    margin: 25px;
+  }
+  .river-works h2 {
+    margin-left: 25px;
+    font-size: 20px;
+  }
+  .river-works-p{
+    margin-left: 19px;
+    font-size: 16px;
+  }
+}
+
+/* Small devices (576px - 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main-container {
+    margin-top: 50px;
+  }
+  .input-item {
+    width: 350px;
+  }
+  .hero-word h1 {
+    font-size: 34px;
+    margin-top: 25px;
+  }
+  .Supported-heading {
+    width: 320px;
+    height: 32px;
+    margin-top: 5px;
+  }
+  .Supported-heading p {
+    font-size: 14px;
+  }
+  .hero-area .right-side {
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .left-side .input-item {
+    width: 400px;
+    margin: 2px;
+    margin-left: 10px;
+  }
+  .left-app-bottom {
+    display: none;
+  }
+  /* Dedstination Section  */
+  .destination {
+    margin-top: 450px;
+    padding-top: 50px;
+  }
+  .destination .top-heading h1 {
+    font-size: 20px;
+  }
+  .destination .top-heading p {
+    font-size: 16px;
+  }
+  .new-search input {
+    margin-top: 20px;
+  }
+  .new-search .search-icon {
+    top: 62%; /* default 50% এর বদলে একটু নিচে নামাও */
+  }
+  .river-works h1 {
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+  .river-works p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 10px;
+    margin-top: 16px;
+  }
+  .river-works-btn {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .river-works .number-top {
+    margin: 30px;
+  }
+  .river-works h2 {
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  .river-works-p{
+    margin-left: 22px;
+    font-size: 16px;
+  }
+  .river-works-pic {
+  margin-left: 36px;
+}
+}
+
+/* Medium devices (768px - 999.98px) */
+@media (min-width: 768px) and (max-width: 999.98px) {
+  .hero-word h1 {
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  .hero-word p {
+    font-size: 16px;
+  }
+  .Supported-heading {
+    width: 328px;
+    height: 32px;
+  }
+  .Supported-heading p {
+    font-size: 14px;
+    padding-top: 4px;
+  }
+  .left-side .input-item {
+    width: 330px;
+
+    margin-top: 20px;
+  }
+  .destination .top-heading h1 {
+    font-size: 35px;
+  }
+  .destination .top-heading p {
+    font-size: 20px;
+  }
+
+  .river-works h1 {
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+  .river-works p {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10px;
+    margin-top: 16px;
+  }
+  .river-works-p{
+    margin-left: 30px;
+    font-size: 16px;
+  }
+   .river-works-pic {
+  margin-left: 36px;
+}
+.river-works-pic {
+  width: 200px;
+  margin-left: 20px;
+}
+.river-works h2 {
+    margin-left: 30px;
+    font-size: 20px;
+  }
+}
+
+/* Semi-medium (1000px - 1199.98px) */
+@media (min-width: 1000px) and (max-width: 1371.98px) {
+  .hero-word h1 {
+    font-size: 38px;
+  }
+  .Supported-heading {
+    width: 380px;
+  }
+  .left-side .input-item {
+    width: 420px;
+    margin: 2px;
+    margin-top: 30px;
+  }
+  .menu-opt {
+    display: none;
+  }
+  .destination .top-heading h1 {
+    font-size: 50px;
+  }
+  .destination .top-heading p {
+    font-size: 20px;
+  }
+  .river-works h1 {
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+  .river-works p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  .river-works h2 {
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  .river-works-p{
+    margin-left: 23px;
+    font-size: 20px;
+  }
+  .river-works-pic {
+  margin-left: 26px;
+}
+}

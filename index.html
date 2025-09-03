@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./Assets/Logo-Top-URL.svg">
+    <title>Rivertel</title>
+    <!-- bootstrap CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Other links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./File-Css/style.css">
+    <link rel="stylesheet" href="./File-Css/media.css">
+</head>
+<!-- body part S  -->
+
+<body>
+    <!-- header part start -->
+    <header class="fixed-top">
+        <!-- Navbar part Start  -->
+        <nav class="prime-nav container-fluid p-lg-4 p-md-3 p-sm-2 ">
+            <!-- mini logo part S  -->
+            <div class="logo-item-2 d-block d-sm-none ">
+                <img src="./Assets/Logo-Top-URL.svg" alt="">
+            </div>
+            <!-- mini logo part E  -->
+            <!-- logo start -->
+            <div class="logo-item d-none d-sm-block">
+                <img src="./Assets/Logo.svg" alt="logo.svg">
+            </div>
+            <!-- logo end -->
+            <!-- search & menu start  -->
+            <div class="search-item ">
+                <!-- menu part S  -->
+                <div class="menu-opt d-none d-lg-block">
+                    <div class="dropdown d-flex align-items-center">
+
+                        <a class="btn btn-secondary dropdown-toggle me-lg-5 me-md-2 me-sm-0" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bars"></i>Menu </a>
+                        <ul class="dropdown-menu mt-2">
+                            <li><a class="dropdown-item" href="#">Home</a></li>
+                            <li><a class="dropdown-item" href="#">eSIM Data Plans</a></li>
+                            <li><a class="dropdown-item" href="#">compatability</a></li>
+                            <li><a class="dropdown-item" href="#">Support</a></li>
+                            <li><a class="dropdown-item" href="#">Rivertel Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Rivertel eSIM benefits</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- menu part E -->
+                <!-- Search part S  -->
+                <!-- <div class="search-1">
+                    <div class="input-item position-relative w-100 mx-auto">
+                        <input type="search" class="form-control  rounded-pill px-4 py-2"
+                            placeholder="Where do you need Internet?">
+                        <div class="search-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="input-item">
+                    <input type="text" class="form-control" placeholder="Where do you need Internet?">
+                    <button type="button" class="search-btn">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </button>
+                </div>
+                <!-- Search part E  -->
+
+            </div>
+            <!-- search & menu end  -->
+            <!-- toggle btn S -->
+            <button class="navbar-toggler d-lg-none custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <!-- toggle btn E -->
+            <!-- Toggle Dropdown E  -->
+
+
+            <!-- other nav element works Starts  -->
+            <div class="other-item ">
+
+                <!-- USDT part S  -->
+                <div class="USD-dropdown me-lg-5 me-sm-0 d-none d-lg-block">
+
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle d-flex align-items-center" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-circle-dollar-to-slot me-1"></i>
+                            USD
+                        </button>
+                        <ul class="dropdown-menu" style="max-height: 300px; overflow-y: auto;">
+                            <li><a class="dropdown-item" href="#">USD - US Dollar</a></li>
+                            <li><a class="dropdown-item" href="#">EUR - Euro</a></li>
+                            <li><a class="dropdown-item" href="#">GBP - British Pound</a></li>
+                            <li><a class="dropdown-item" href="#">JPY - Japanese Yen</a></li>
+                            <li><a class="dropdown-item" href="#">AUD - Australian Dollar</a></li>
+                            <li><a class="dropdown-item" href="#">CAD - Canadian Dollar</a></li>
+                            <li><a class="dropdown-item" href="#">CHF - Swiss Franc</a></li>
+                            <li><a class="dropdown-item" href="#">CNY - Chinese Yuan</a></li>
+                            <li><a class="dropdown-item" href="#">INR - Indian Rupee</a></li>
+                            <li><a class="dropdown-item" href="#">BDT - Bangladeshi Taka</a></li>
+                            <li><a class="dropdown-item" href="#">PKR - Pakistani Rupee</a></li>
+                            <li><a class="dropdown-item" href="#">SGD - Singapore Dollar</a></li>
+                            <li><a class="dropdown-item" href="#">NZD - New Zealand Dollar</a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- USDT part E  -->
+                <!-- Language part Start  -->
+                <div class="language-dropdown me-lg-5 me-sm-0 d-none d-lg-block ">
+
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle d-flex align-items-center" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-globe me-1"></i>
+                            ENG
+                        </button>
+                        <ul class="dropdown-menu" style="max-height: 300px; overflow-y: auto;">
+                            <li><a class="dropdown-item" href="#">ENG - English</a></li>
+                            <li><a class="dropdown-item" href="#">BAN - Bangla</a></li>
+                            <li><a class="dropdown-item" href="#">HIN - Hindi</a></li>
+                            <li><a class="dropdown-item" href="#">SPA - Spanish</a></li>
+                            <li><a class="dropdown-item" href="#">FRE - French</a></li>
+                            <li><a class="dropdown-item" href="#">GER - German</a></li>
+                            <li><a class="dropdown-item" href="#">CHI - Chinese</a></li>
+                            <li><a class="dropdown-item" href="#">JPN - Japanese</a></li>
+                            <li><a class="dropdown-item" href="#">KOR - Korean</a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- Language part End  -->
+                <div class="cart-icon me-lg-5 me-sm-0 d-none d-lg-block">
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+
+                </div>
+                <!-- sign BTN s  -->
+                <div class="sign-btn d-none d-lg-block">
+                    <button type="submit" class="">Sign In</button>
+                </div>
+                <!-- sign BTN E  -->
+
+            </div>
+            <!-- other nav element works ends  -->
+        </nav>
+        <!-- toggle functionality start  -->
+        <!-- Toggle Dropdown S  -->
+        <div class="collapse navbar-collapse text-center d-lg-none  fQ-dropdown bg-light" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 gap-lg-3 mb-lg-0 d-flex flex-lg-row text-center ">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">eSIM Data Plans </a></li>
+                <li class="nav-item dropdown  mx-auto mb-2 gap-lg-3 mb-lg-0 d-flex flex-lg-row text-center internal-fQ">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Others
+                    </a>
+                    <ul class="dropdown-menu text-center ">
+                        <li><a class="dropdown-item" href="#service">Buy eSIM</a></li>
+                        <li><a class="dropdown-item" href="#service">Features</a></li>
+                        <li><a class="dropdown-item" href="#service">plans</a></li>
+                        <li><a class="dropdown-item" href="#service">Quick Recharge</a></li>
+                        <li><a class="dropdown-item" href="#service">Rivertel Blog</a></li>
+                        <li><a class="dropdown-item" href="#service">About our Team</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Other Coming Soon</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#team">Support</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Rivertel eSIM benefits</a></li>
+            </ul>
+
+            <button type="button " class="btn btn-secondary">Sign in</button>
+
+        </div>
+        <!-- Toggle Dropdown E -->
+    </header>
+    <!-- Header Parts End  -->
+    <!-- Main Content area Start  -->
+    <main class="py-sm-5  main-container">
+        <!-- hero section Start  -->
+        <section class="hero-area container-fluid px-5 ">
+            <div class="row ">
+                <div class="left-side col-12 col-sm-12 col-md-6 col-lg-6  py-lg-3 py-md-2  ps-lg-5  ps-md-3  ps-sm-4">
+                    <div class="Supported-heading ">
+                        <div class="globe_img"> <img src="./Assets/globe.svg" alt=""></div>
+                        <p>Supported in 200&#43; Countries and Regions</p>
+                    </div>
+                    <div class="hero-word">
+                        <h1>INSTANT DATA,<br />
+                            GLOBAL REACH</h1>
+                        <p>Activate your eSIM in seconds. No physical SIM, no hassle.</p>
+                    </div>
+                    <!-- Search-bar S -->
+                    <div class="input-item">
+                        <input type="text" class="form-control" placeholder="Where do you need Internet?">
+                        <button type="button" class="search-btn">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        </button>
+                    </div>
+                    <!-- Search-bar E -->
+                    <!-- Get the App S  -->
+                    <div class="left-app-bottom">
+                        <p>Get the app</p>
+                        <button type="button" class="btn btn-secondary btn-1"><img src="./Assets/app Store.svg"
+                                alt="App_Store"></button>
+                        <button type="button" class="btn btn-secondary btn-2"><img src="./Assets/Google Play.svg"
+                                alt="Google_play"></button>
+
+
+                    </div>
+                    <!-- Get the App E  -->
+                </div>
+                <div class="right-side col-12 col-sm-12 col-md-6 col-lg-6 text-end pe-5">
+                    <img src="./Assets/Hero img.jpg" class="img-fluid " alt="">
+                    <!-- Get the App S -->
+                    <div class="left-app-bottom text-start d-lg-none d-md-none d-sm-block">
+                        <p>Get the app</p>
+                        <button type="button" class="btn btn-secondary btn-1"><img src="./Assets/app Store.svg"
+                                alt="App_Store"></button>
+                        <button type="button" class="btn btn-secondary btn-2"><img src="./Assets/Google Play.svg"
+                                alt="Google_play"></button>
+                    </div>
+
+                    <!-- Get the App E -->
+
+                </div>
+            </div>
+        </section>
+        <!-- hero section End  -->
+        <!-- destination Section Start   -->
+        <section class="destination container-fluid px-lg-5 px-md-4 px-sm-2 px-1 ">
+            <div class="top-heading  text-center">
+                <h1>CHOOSE YOUR DESTINATION</h1>
+                <p>Pick a data plan for your trip</p>
+            </div>
+            <!-- country btn and search segment -->
+            <div class="container-fluid px-5">
+                <div
+                    class="btn-input-wrapper d-flex flex-column flex-md-row justify-content-between align-items-center gy-3">
+                    <div class="btn-wrapper d-flex justify-content-start justify-content-md-start">
+                        <button type="button" class="btn button-1">Country</button>
+                        <button type="button" class="btn button-2">Region</button>
+                    </div>
+
+                    <div class="new-search position-relative">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Country boxes Start  -->
+            <div class="container-fluid  country-boxes my-5">
+                <div class="row row-cols-2 row-cols-sm-2 row-cols-lg-4 g-3">
+
+                    <div class="col">
+                        <div class="top-portion card-box ">
+                            <div class="country-icon d-flex align-items-center justify-content-between">
+                                <div class="flag-icon d-flex ">
+                                    <img src="./Assets/Algeria.svg" alt="flag.svg">
+                                    <div class="country-name">
+                                        <p>Algeria</p>
+                                    </div>
+                                </div>
+                                <div class="icon-end ">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-5 Price-usd">
+                                <p>From USD 8.99</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="top-portion card-box">
+                            <div class="country-icon d-flex align-items-center justify-content-between">
+                                <div class="flag-icon d-flex ">
+                                    <img src="./Assets/American Samoa.svg" alt="flag.svg">
+                                    <div class="country-name">
+                                        <p>American&nbsp;Samoa</p>
+                                    </div>
+                                </div>
+                                <div class="icon-end ">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-5 Price-usd">
+                                <p>From USD 8.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="top-portion card-box">
+                            <div class="country-icon d-flex align-items-center justify-content-between">
+                                <div class="flag-icon d-flex ">
+                                    <img src="./Assets/Andorraa.svg" alt="flag.svg">
+                                    <div class="country-name">
+                                        <p>Andorraa</p>
+                                    </div>
+                                </div>
+                                <div class="icon-end ">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-5 Price-usd">
+                                <p>From USD 8.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="top-portion card-box">
+                            <div class="country-icon d-flex align-items-center justify-content-between">
+                                <div class="flag-icon d-flex ">
+                                    <img src="./Assets/Angola.svg" alt="flag.svg">
+                                    <div class="country-name">
+                                        <p>Angola</p>
+                                    </div>
+                                </div>
+                                <div class="icon-end ">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-5 Price-usd">
+                                <p>From USD 8.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="top-portion card-box">
+                            <div class="country-icon d-flex align-items-center justify-content-between">
+                                <div class="flag-icon d-flex ">
+                                    <img src="./Assets/Argentina.svg" alt="flag.svg">
+                                    <div class="country-name">
+                                        <p>Argentina</p>
+                                    </div>
+                                </div>
+                                <div class="icon-end ">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-5 Price-usd">
+                                <p>From USD 8.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="top-portion card-box">
+                            <div class="country-icon d-flex align-items-center justify-content-between">
+                                <div class="flag-icon d-flex ">
+                                    <img src="./Assets/Aruba.svg" alt="flag.svg">
+                                    <div class="country-name">
+                                        <p>Aruba</p>
+                                    </div>
+                                </div>
+                                <div class="icon-end ">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-5 Price-usd">
+                                <p>From USD 8.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="top-portion card-box">
+                            <div class="country-icon d-flex align-items-center justify-content-between">
+                                <div class="flag-icon d-flex ">
+                                    <img src="./Assets/Australia.svg" alt="flag.svg">
+                                    <div class="country-name">
+                                        <p>Australia</p>
+                                    </div>
+                                </div>
+                                <div class="icon-end ">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-5 Price-usd">
+                                <p>From USD 8.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="top-portion card-box">
+                            <div class="country-icon d-flex align-items-center justify-content-between">
+                                <div class="flag-icon d-flex ">
+                                    <img src="./Assets/Bangladesh.svg" alt="flag.svg">
+                                    <div class="country-name">
+                                        <p>Bangladesh</p>
+                                    </div>
+                                </div>
+                                <div class="icon-end ">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-5 Price-usd">
+                                <p>From USD 8.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="top-portion card-box">
+                            <div class="country-icon d-flex align-items-center justify-content-between">
+                                <div class="flag-icon d-flex ">
+                                    <img src="./Assets/Belgium.svg" alt="flag.svg">
+                                    <div class="country-name">
+                                        <p>Belgium</p>
+                                    </div>
+                                </div>
+                                <div class="icon-end ">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-5 Price-usd">
+                                <p>From USD 8.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="top-portion card-box">
+                            <div class="country-icon d-flex align-items-center justify-content-between">
+                                <div class="flag-icon d-flex ">
+                                    <img src="./Assets/Bermuda.svg" alt="flag.svg">
+                                    <div class="country-name">
+                                        <p>Bermuda</p>
+                                    </div>
+                                </div>
+                                <div class="icon-end ">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-5 Price-usd">
+                                <p>From USD 8.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="top-portion card-box">
+                            <div class="country-icon d-flex align-items-center justify-content-between">
+                                <div class="flag-icon d-flex ">
+                                    <img src="./Assets/Bhutan.svg" alt="flag.svg">
+                                    <div class="country-name">
+                                        <p>Bhutan</p>
+                                    </div>
+                                </div>
+                                <div class="icon-end ">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-5 Price-usd">
+                                <p>From USD 8.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="top-portion card-box">
+                            <div class="country-icon d-flex align-items-center justify-content-between">
+                                <div class="flag-icon d-flex ">
+                                    <img src="./Assets/Brazil.svg" alt="flag.svg">
+                                    <div class="country-name">
+                                        <p>Brazil</p>
+                                    </div>
+                                </div>
+                                <div class="icon-end ">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-5 Price-usd">
+                                <p>From USD 8.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Country Boxes End  -->
+            <div class="more-countries">
+                <button type="button" class="btn d-flex align-items-center mx-auto ">See Available Countries <span
+                        class="ms-2"><i class="fa-solid fa-angle-right"></i></span></button>
+            </div>
+        </section>
+        <!-- destination Section END   -->
+        <!-- How Rivertel works Start -->
+        <section class="river-works container-fluid px-lg-5 px-md-4 px-sm-2 px-1 ">
+            <h1>HOW RIVERTEL WORKS</h1>
+            <div class="d-flex flex-column flex-md-row justify-content-md-between align-items-start">
+                <p class="mb-2 mb-md-0">
+                    Don’t have the Rivertel app yet? Try from App store or Google Play
+                </p>
+                <button type="button" class="btn river-works-btn ">Get The App</button>
+            </div>
+            <!-- <div class="row row-cols-1 row-cols-sm-1  row-cols-lg-3 g-3 mt-lg-4 mt-md-3 mt-sm-2 mt-1">
+                <div class="col ">
+                    <div class="number-top text-center align-content-center">
+                        <b>1</b>
+                    </div>
+                    <div>
+                        <h2>CHOOSE A DATA PLAN</h2>
+                        <p class="river-works-p">Select your destination and choose from our flexible plans.</p>
+                    </div>
+                    <div class="river-works-pic">
+                        <img src="./Assets/data plan pic.jpg" alt="data-plan-pic">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="number-top text-center align-content-center">
+                        <b>2</b>
+                    </div>
+                    <div>
+                        <h2>INSTALL YOUR ESIM</h2>
+                        <p class="river-works-p">Follow the instructions and install your eSIM in minutes!</p>
+                    </div>
+                    <div class="river-works-pic">
+                        <img src="./Assets/Install sim pic.jpg" alt="install-plan-pic">
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="number-top text-center align-content-center">
+                        <b>3</b>
+                    </div>
+                    <div>
+                        <h2>GET CONNECTED</h2>
+                        <p class="river-works-p">Enjoy seamless and reliable connectivity wherever you go!</p>
+                    </div>
+                    <div class="river-works-pic">
+                        <img src="./Assets/get connect pic.jpg" alt="get-connected-pic">
+                    </div>
+                </div>
+            </div> -->
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-lg-4 mt-md-3 mt-sm-2 mt-1">
+                <div class="col">
+                    <div class="p-3 bg-white rounded shadow-sm h-100">
+                        <div class="number-top text-center align-content-center mb-2">
+                            <b>1</b>
+                        </div>
+                        <h2 class="mt-lg-5 mt-md-4 mt-sm-4 mt-4">CHOOSE A DATA PLAN</h2>
+                        <p class="river-works-p">
+                            Select your destination and choose from our flexible plans.
+                        </p>
+                        <div class="river-works-pic">
+                            <img src="./Assets/data plan pic.jpg" alt="data-plan-pic" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="p-3 bg-white rounded shadow-sm h-100">
+                        <div class="number-top text-center align-content-center mb-2">
+                            <b>2</b>
+                        </div>
+                        <h2 class="mt-lg-5 mt-md-4 mt-sm-4 mt-4">INSTALL YOUR ESIM</h2>
+                        <p class="river-works-p">
+                            Follow the instructions and install your eSIM in minutes!
+                        </p>
+                        <div class="river-works-pic">
+                            <img src="./Assets/Install sim pic.jpg" alt="install-plan-pic" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="p-3 bg-white rounded shadow-sm h-100">
+                        <div class="number-top text-center align-content-center mb-2">
+                            <b>3</b>
+                        </div>
+                        <h2 class="mt-lg-5 mt-md-4 mt-sm-4 mt-4">GET CONNECTED</h2>
+                        <p class="river-works-p">
+                            Enjoy seamless and reliable connectivity wherever you go!
+                        </p>
+                        <div class="river-works-pic">
+                            <img src="./Assets/get connect pic.jpg" alt="get-connected-pic" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- How Rivertel works end -->
+    </main>
+    <!-- Main Content area End  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

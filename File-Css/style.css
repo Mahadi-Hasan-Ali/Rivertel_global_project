@@ -1,0 +1,631 @@
+/* 
+ */
+@font-face {
+  font-family: "Obviously";
+  src: url("../Assets/Fonts/Obviously-");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --font_color: #1e1e1e;
+  --font_style: Obviously, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* header section start  */
+/* nav Scroller S */
+/* header {
+  
+} */
+/* nav Scroller E */
+
+.prime-nav {
+  border-bottom: 1px solid #eaecf0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: #ffffff;
+}
+/* logo part start  */
+.logo-item {
+  max-width: 143px;
+  min-width: 120px;
+  height: auto;
+}
+.logo-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.logo-item-2 {
+  width: 37px;
+  min-width: 36px;
+}
+.logo-item-2 img {
+  width: 100%;
+  object-fit: cover;
+}
+/* logo part end  */
+/* menu S  */
+.menu-opt .dropdown .btn {
+  background-color: transparent; /* no extra background */
+  color: inherit; /* keep default text color */
+  border: none;
+  transition: box-shadow 0.3s;
+}
+
+/* Hover glow (yellow) */
+.menu-opt .dropdown .btn:hover {
+  box-shadow: 0 0 10px 3px #f2ff46; /* yellow glow */
+  border-radius: 100px;
+}
+
+/* Remove click/focus shadow & border */
+.menu-opt .dropdown .btn:focus,
+.menu-opt .dropdown .btn:active,
+.menu-opt .dropdown .btn:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+/* Dropdown items hover effect */
+.menu-opt .dropdown-menu .dropdown-item {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-opt .dropdown-menu .dropdown-item:hover {
+  background-color: #f2ff46; /* yellow hover */
+  color: #1e1e1e;
+}
+
+/* Optional: scrollable if many items */
+.menu-opt .dropdown-menu {
+  max-height: 300px;
+  overflow-y: auto;
+}
+.menu-opt a {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* menu E  */
+/* Search-1 Start  */
+.search-item {
+  display: flex;
+  align-items: center;
+}
+/* .search-1 {
+} */
+
+.input-item {
+  width: 523px;
+  position: relative;
+  max-width: 523px; /* Large screen default */
+  margin: auto;
+}
+
+.input-item input {
+  width: 100%;
+  height: 60px;
+  border: 3px solid var(--font_color);
+  border-radius: 64px;
+  padding-right: 50px; /* button er space er jonno */
+}
+
+.input-item input::placeholder {
+  color: #1e1e1e;
+}
+.input-item input:focus {
+  outline: none;
+  border-color: #f2ff46; /* optional, border yellow */
+  box-shadow: 0 0 10px 3px #f2ff46; /* yellow glow */
+  transition: box-shadow 0.3s, border-color 0.3s; /* smooth effect */
+}
+
+.input-item .search-btn {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #1e1e1e;
+  background-color: #f2ff46;
+  border: none;
+  padding: 7px;
+  border-radius: 64px;
+  cursor: pointer;
+  z-index: 2;
+}
+.input-item .search-btn:hover {
+  background-color: #f2ff46;
+  box-shadow: 0 0 15px 5px #f2ff46; /* yellow glow */
+}
+/* search-1 end  */
+/* Toggole btn S  */
+.custom-toggler {
+  /* Button এর চারপাশে বেশি space */
+  font-size: 1.5rem;
+}
+.custom-toggler:hover {
+  box-shadow: 0 0 10px 3px #f2ff46; /* yellow glow */
+  border-radius: 100px;
+}
+/* Toggole btn E  */
+/* Other nav elements work start  */
+.other-item {
+  display: flex;
+  align-items: center;
+}
+/* USD element S  */
+.USD-dropdown .dropdown .btn:hover {
+  box-shadow: 0 0 10px 3px #f2ff46; /* yellow glow */
+  border-radius: 100px;
+}
+
+.USD-dropdown .dropdown button {
+  background-color: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.USD-dropdown .dropdown button i {
+  font-size: 30px;
+}
+/* .USD-dropdown ul li:hover{
+  background-color: #F2FF46;
+} */
+/* extra style S */
+.USD-dropdown .btn:focus,
+.USD-dropdown .btn:active,
+.USD-dropdown .btn:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+/* Extra style E  */
+
+.USD-dropdown .dropdown-menu .dropdown-item {
+  transition: background-color 0.3s, color 0.3s; /* smooth effect */
+}
+
+.USD-dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #f2ff46; /* yellow background on hover */
+  color: #1e1e1e; /* optional: dark text */
+}
+
+/* USD element E  */
+
+/* Language part S  */
+.language-dropdown .dropdown button {
+  background-color: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.language-dropdown .dropdown .btn:hover {
+  box-shadow: 0 0 10px 3px #f2ff46; /* yellow glow */
+  border-radius: 100px;
+}
+.language-dropdown .dropdown button i {
+  font-size: 30px;
+}
+
+.language-dropdown .btn:focus,
+.language-dropdown .btn:active,
+.language-dropdown .btn:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+.language-dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #f2ff46; /* yellow background on hover */
+  color: #1e1e1e; /* optional: dark text */
+}
+/* Language part E */
+
+/* Cart icon S  */
+.cart-icon i {
+  font-size: 30px;
+  margin-right: 40px;
+}
+.cart-icon i:hover {
+  box-shadow: 0 0 10px 3px #f2ff46; /* yellow glow */
+  border-radius: 100px;
+}
+/* Cart icon E  */
+/* Sign btn S  */
+.other-item .sign-btn button {
+  min-width: 71px;
+  height: 45px;
+}
+.other-item .sign-btn:hover {
+  box-shadow: 0 0 10px 3px #f2ff46; /* yellow glow */
+  border-radius: 100px;
+}
+.other-item .sign-btn button {
+  width: 100%;
+  padding: 5px 8px;
+  border-radius: 100px;
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+}
+
+/* Sign btn E */
+
+/* Other nav elements work end   */
+/* Under Dropdown items  design S */
+.fQ-dropdown ul li:hover {
+  background-color: #f2ff46; /* yellow background on hover */
+  color: #1e1e1e; /* optional: dark text */
+}
+.fQ-dropdown ul li {
+  font-weight: 600;
+}
+.fQ-dropdown button {
+  border-radius: 100px;
+  border: none;
+  background-color: #1e1e1e;
+  font-weight: 600;
+}
+.internal-fQ .dropdown-item:hover {
+  background-color: #f2ff46 !important; /* yellow background */
+  color: #1e1e1e !important; /* dark text */
+}
+
+/* Under Dropdown items  design E */
+/* header section End  */
+
+/* Main Content area Start  */
+main{
+    width: 100%;
+}
+.main-container{
+    margin-top: 100px;
+}
+/* Hero area start  */
+.hero-area {
+  /* font-family: "Inter", sans-serif; */
+  /* font-family: Obviously, sans-serif; */
+  width: 100%;
+  height: 80vh;
+}
+
+/* left side part S  */
+
+.Supported-heading {
+  display: flex;
+  background-color: #f2ff46;
+  width: 362px;
+  height: 32px;
+  border-radius: 50px;
+}
+.Supported-heading p {
+  padding-top: 2px;
+  padding-left: 7px;
+  font-weight: 700;
+  color: #006a4e;
+}
+.Supported-heading .globe_img {
+  width: 25px;
+  height: 25px;
+}
+.Supported-heading .globe_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+/* hero word S  */
+
+/* .hero-word h1 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
+  font-size: 60px;
+  font-family: var(--font_style);
+  font-weight: 470;
+  transform: scaleY(1.5);
+  margin-top: 80px;
+  letter-spacing: 120%;
+
+  text-wrap: nowrap;
+} */
+ .hero-word h1 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
+  font-family: var(--font_style);
+  font-weight: 470;
+  transform: scaleY(1.3);
+  margin-top: 40px;
+  /* letter-spacing: 2px; */
+  white-space: normal; /* nowrap বাদ */
+  font-size: clamp(29px, 5vw, 55px); /* responsive font */
+  line-height: 1;
+}
+
+.hero-word p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  line-height: 150%;
+  letter-spacing: 120%;
+}
+/* hero word E  */
+/* Search bar Satrt  */
+.left-side .input-item {
+  width: 523px;
+  position: relative;
+  max-width: 523px; /* Large screen default */
+  margin: 2px;
+  margin-top: 40px;
+}
+
+.left-side .input-item input {
+  width: 100%;
+  height: 60px;
+  border: 3px solid var(--font_color);
+  border-radius: 64px;
+  padding-right: 50px; /* button er space er jonno */
+}
+
+.left-side .input-item input::placeholder {
+  color: #1e1e1e;
+}
+.left-side .input-item input:focus {
+  outline: none;
+  border-color: #f2ff46; /* optional, border yellow */
+  box-shadow: 0 0 10px 3px #f2ff46; /* yellow glow */
+  transition: box-shadow 0.3s, border-color 0.3s; /* smooth effect */
+}
+
+.left-side .input-item .search-btn {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #1e1e1e;
+  background-color: #f2ff46;
+  border: none;
+  padding: 7px;
+  border-radius: 64px;
+  cursor: pointer;
+  z-index: 2;
+}
+.left-side .input-item .search-btn:hover {
+  background-color: #f2ff46;
+  box-shadow: 0 0 15px 5px #f2ff46; /* yellow glow */
+}
+
+/* Saerch bar End  */
+/* App Store PArt S  */
+.left-app-bottom{
+    margin-top: 48px;
+}
+.left-app-bottom p {
+    font-size: 20px;
+    font-weight: 500;
+}
+.left-app-bottom .btn {
+    padding: 0;              
+    border: none;            
+    background: none;        
+}
+
+.left-app-bottom .btn img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;     
+}
+
+/* App Store part E  */
+/* left side part E  */
+
+/* Right side hero pIcture S   */
+.hero-area .right-side img:hover {
+  background-color: #f2ff46;
+  box-shadow: 0 0 15px 5px #f2ff46; /* yellow glow */
+}
+/* Search btn under PIC right side  S  */
+/* Search btn under PIC right side  E  */
+/* Right side hero pIcture E   */
+/* Hero area end  */
+
+/* Destination Country Section S */
+.destination{
+  background-color:#1E1E1E;
+  padding-top: 100px;
+  margin-top:90px ;
+  padding-bottom: 50px;
+  
+}
+.destination .top-heading h1{
+  color: white;
+  font-size:55px;
+  font-family:var(--font_style);
+  font-weight: 470px;
+}
+.destination .top-heading p{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* btn and input part S  */
+.btn-wrapper button {
+  width: 117px;
+  height: 56px;
+  background-color: #eaecf0;
+  border-radius: 50px;
+  margin: 0 8px;
+}
+.btn-wrapper .button-1{
+  background-color: #F2F2F2;
+  color: #1E1E1E;
+  font-size: 18px;
+  font-weight: 500;
+}
+.btn-wrapper .button-2{
+  background-color: #292929;
+  color:#F2F2F2;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.new-search input {
+  width: 100%;
+  max-width: 416px;
+  height: 56px;
+  padding-right: 40px;
+  border-radius: 50px;
+}
+
+.new-search .search-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #555;
+  font-size: 18px;
+  cursor: pointer;
+}
+.new-search{
+  width:416px;
+}
+.new-search input::placeholder{
+  color:#1E1E1E;
+  font-weight: 500;
+}
+/* btn and input part E  */
+/* country boxes part Start  */
+.card-box {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.card-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* Country icon */
+.country-icon img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Text styling */
+.top-portion p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.top-portion span {
+  display: inline-block;
+  margin-top: 5px;
+  color: #555;
+}
+.country-name p{
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.flag-icon {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  
+}
+.flag-icon img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* .icon-end i {
+  margin-bottom: 10px;
+} */
+.Price-usd p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+}
+.more-countries button{
+  background-color: #f2ff46;
+  border-radius: 50px;
+}
+/* country boxes part End  */
+/* River Works part Start   */
+.river-works{
+  background-color: #F6F7F9;
+  padding-bottom:50px ;
+}
+.river-works h1{
+  font-size: 55px;
+  font-family: var(--font_style);
+  padding-top: 100px;
+  color: #1E1E1E;
+}
+.river-works p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1E1E1E;
+}
+.river-works-btn {
+  background-color: #f2ff46;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #1E1E1E;
+}
+.river-works .number-top{
+  width: 49px;
+  height: 49px;
+  background-color: #F6F7F9;
+  border-radius: 50px;
+  margin: 36px;
+}
+/* .river-works .row .col{
+  background-color: #FFFFFF;
+} */
+.river-works h2{
+  font-family: var(--font_style);
+  margin-left: 36px;
+  font-size: 36px;
+}
+.river-works-p{
+  margin-left: 36px;
+  font-size: 20px;
+}
+.river-works-pic {
+  width: 236px;
+  margin-left: 36px;
+}
+.river-works-pic img{
+  width: 100%;
+}
+
+
+/* River Works part End   */
+
+
+
+/* Destination Country Section E */
+/* Main Content area End  */
