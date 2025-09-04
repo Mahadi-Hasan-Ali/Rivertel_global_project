@@ -1,5 +1,9 @@
-/* 
- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "Obviously";
   src: url("../Assets/Fonts/Obviously-");
@@ -284,11 +288,11 @@ a {
 /* header section End  */
 
 /* Main Content area Start  */
-main{
-    width: 100%;
+main {
+  width: 100%;
 }
-.main-container{
-    margin-top: 100px;
+.main-container {
+  margin-top: 100px;
 }
 /* Hero area start  */
 .hero-area {
@@ -339,7 +343,7 @@ main{
 
   text-wrap: nowrap;
 } */
- .hero-word h1 {
+.hero-word h1 {
   word-wrap: break-word;
   overflow-wrap: break-word;
   width: 100%;
@@ -409,24 +413,24 @@ main{
 
 /* Saerch bar End  */
 /* App Store PArt S  */
-.left-app-bottom{
-    margin-top: 48px;
+.left-app-bottom {
+  margin-top: 48px;
 }
 .left-app-bottom p {
-    font-size: 20px;
-    font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
 }
 .left-app-bottom .btn {
-    padding: 0;              
-    border: none;            
-    background: none;        
+  padding: 0;
+  border: none;
+  background: none;
 }
 
 .left-app-bottom .btn img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;     
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* App Store part E  */
@@ -443,20 +447,19 @@ main{
 /* Hero area end  */
 
 /* Destination Country Section S */
-.destination{
-  background-color:#1E1E1E;
+.destination {
+  background-color: #1e1e1e;
   padding-top: 100px;
-  margin-top:90px ;
+  margin-top: 90px;
   padding-bottom: 50px;
-  
 }
-.destination .top-heading h1{
+.destination .top-heading h1 {
   color: white;
-  font-size:55px;
-  font-family:var(--font_style);
+  font-size: 55px;
+  font-family: var(--font_style);
   font-weight: 470px;
 }
-.destination .top-heading p{
+.destination .top-heading p {
   color: white;
   font-size: 20px;
   font-weight: 500;
@@ -470,15 +473,15 @@ main{
   border-radius: 50px;
   margin: 0 8px;
 }
-.btn-wrapper .button-1{
-  background-color: #F2F2F2;
-  color: #1E1E1E;
+.btn-wrapper .button-1 {
+  background-color: #f2f2f2;
+  color: #1e1e1e;
   font-size: 18px;
   font-weight: 500;
 }
-.btn-wrapper .button-2{
+.btn-wrapper .button-2 {
   background-color: #292929;
-  color:#F2F2F2;
+  color: #f2f2f2;
   font-size: 18px;
   font-weight: 500;
 }
@@ -500,11 +503,11 @@ main{
   font-size: 18px;
   cursor: pointer;
 }
-.new-search{
-  width:416px;
+.new-search {
+  width: 416px;
 }
-.new-search input::placeholder{
-  color:#1E1E1E;
+.new-search input::placeholder {
+  color: #1e1e1e;
   font-weight: 500;
 }
 /* btn and input part E  */
@@ -514,7 +517,7 @@ main{
   border-radius: 12px;
   padding: 20px;
   text-align: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
   cursor: pointer;
 }
@@ -522,7 +525,7 @@ main{
 /* Hover effect */
 .card-box:hover {
   transform: scale(1.03);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
 /* Country icon */
@@ -544,7 +547,7 @@ main{
   margin-top: 5px;
   color: #555;
 }
-.country-name p{
+.country-name p {
   font-size: 20px;
   margin-left: 10px;
   margin-bottom: 5px;
@@ -553,9 +556,8 @@ main{
   width: 36px;
   height: 36px;
   min-width: 36px;
-  
 }
-.flag-icon img{
+.flag-icon img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -563,54 +565,54 @@ main{
 /* .icon-end i {
   margin-bottom: 10px;
 } */
-.Price-usd p{
+.Price-usd p {
   font-size: 16px;
   font-weight: 400;
   color: #555;
 }
-.more-countries button{
+.more-countries button {
   background-color: #f2ff46;
   border-radius: 50px;
 }
 /* country boxes part End  */
 /* River Works part Start   */
-.river-works{
-  background-color: #F6F7F9;
-  padding-bottom:50px ;
+.river-works {
+  background-color: #f6f7f9;
+  padding-bottom: 50px;
 }
-.river-works h1{
+.river-works h1 {
   font-size: 55px;
   font-family: var(--font_style);
   padding-top: 100px;
-  color: #1E1E1E;
+  color: #1e1e1e;
 }
 .river-works p {
   font-size: 20px;
   font-weight: 500;
-  color: #1E1E1E;
+  color: #1e1e1e;
 }
 .river-works-btn {
   background-color: #f2ff46;
   border-radius: 50px;
   font-size: 20px;
-  color: #1E1E1E;
+  color: #1e1e1e;
 }
-.river-works .number-top{
+.river-works .number-top {
   width: 49px;
   height: 49px;
-  background-color: #F6F7F9;
+  background-color: #f6f7f9;
   border-radius: 50px;
   margin: 36px;
 }
 /* .river-works .row .col{
   background-color: #FFFFFF;
 } */
-.river-works h2{
+.river-works h2 {
   font-family: var(--font_style);
   margin-left: 36px;
   font-size: 36px;
 }
-.river-works-p{
+.river-works-p {
   margin-left: 36px;
   font-size: 20px;
 }
@@ -618,14 +620,59 @@ main{
   width: 236px;
   margin-left: 36px;
 }
-.river-works-pic img{
+.river-works-pic img {
   width: 100%;
 }
 
-
 /* River Works part End   */
 
-
-
 /* Destination Country Section E */
+/* Why schoose rivertel part start  */
+.why-river {
+  background-color: #f2ff46;
+}
+.why-river h1 {
+  font-family: var(--font_style);
+  font-size: 55px;
+}
+.why-river p {
+  font-size: 20px;
+  font-weight: 500;
+}
+/* box part S  */
+.custom-col {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+}
+.custom-col h2 {
+  font-family: var(--font_style);
+}
+
+.custom-col:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.box-1 {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+.img-text-wrapper {
+  position: relative;
+}
+.special-effect p {
+  font-size: 20px;
+  width: 500;
+  position: absolute;
+  top: 132px;
+}
+
+/* Box part E  */
+
+/* Why schoose rivertel part end  */
+
 /* Main Content area End  */

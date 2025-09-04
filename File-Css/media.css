@@ -13,8 +13,8 @@
     font-size: 13px;
   }
   .hero-area {
-  height: 100vh;
- }
+    height: 100vh;
+  }
 
   .hero-word h1 {
     font-size: 28px;
@@ -73,7 +73,6 @@
     width: 100%;
     max-width: 100%;
   }
-
   .new-search .search-icon {
     top: 62%;
   }
@@ -99,10 +98,24 @@
     margin-left: 25px;
     font-size: 20px;
   }
-  .river-works-p{
+  .river-works-p {
     margin-left: 19px;
     font-size: 16px;
   }
+  /* why choose rivertel part S */
+  .why-river h1 {
+    font-size: 30px;
+  }
+  .why-river p {
+    font-size: 16px;
+  }
+  /* why choose rivertel part E */
+  /* box past S  */
+  .special-effect p {
+    font-size: 20px;
+    top: -4px;
+  }
+  /* box past E  */
 }
 
 /* Small devices (576px - 767.98px) */
@@ -114,8 +127,8 @@
     width: 350px;
   }
   .hero-area {
-  height: 80vh;
- }
+    height: 80vh;
+  }
   .hero-word h1 {
     font-size: 34px;
     margin-top: 25px;
@@ -179,13 +192,27 @@
     margin-left: 30px;
     font-size: 20px;
   }
-  .river-works-p{
+  .river-works-p {
     margin-left: 22px;
     font-size: 16px;
   }
   .river-works-pic {
-  margin-left: 36px;
-}
+    margin-left: 36px;
+  }
+  /* why choose rivertel part S */
+  .why-river h1 {
+    font-size: 35px;
+  }
+  .why-river p {
+    font-size: 17px;
+  }
+  /* why choose rivertel part E */
+  /* box past S  */
+  .special-effect p {
+    font-size: 20px;
+    top: -4px;
+  }
+  /* box past E  */
 }
 
 /* Medium devices (768px - 999.98px) */
@@ -194,9 +221,9 @@
     font-size: 35px;
     margin-top: 30px;
   }
-    .hero-area {
-  height: 60vh;
- }
+  .hero-area {
+    height: 60vh;
+  }
   .hero-word p {
     font-size: 16px;
   }
@@ -231,21 +258,34 @@
     padding-left: 10px;
     margin-top: 16px;
   }
-  .river-works-p{
+  .river-works-p {
     margin-left: 30px;
     font-size: 16px;
   }
-   .river-works-pic {
-  margin-left: 36px;
-}
-.river-works-pic {
-  width: 200px;
-  margin-left: 20px;
-}
-.river-works h2 {
+  .river-works-pic {
+    margin-left: 36px;
+  }
+  .river-works-pic {
+    width: 200px;
+    margin-left: 20px;
+  }
+  .river-works h2 {
     margin-left: 30px;
     font-size: 20px;
   }
+  /* why choose rivertel part S */
+  .why-river h1 {
+    font-size: 40px;
+  }
+  .why-river p {
+    font-size: 19px;
+  }
+  /* why choose rivertel part E */
+  /* box part S  */
+  .custom-col h2 {
+  font-size: 24px;
+}
+  /* box part E  */
 }
 
 /* Semi-medium (1000px - 1199.98px) */
@@ -284,11 +324,19 @@
     margin-left: 30px;
     font-size: 20px;
   }
-  .river-works-p{
+  .river-works-p {
     margin-left: 23px;
     font-size: 20px;
   }
   .river-works-pic {
-  margin-left: 26px;
-}
+    margin-left: 26px;
+  }
+  /* why choose rivertel part S */
+  .why-river h1 {
+    font-size: 50px;
+  }
+  .why-river p {
+    font-size: 20px;
+  }
+  /* why choose rivertel part E */
 }
