@@ -116,6 +116,14 @@
     top: -4px;
   }
   /* box past E  */
+  /* FAQ part Start  */
+  .FAQ-river h1 {
+    font-size: 30px;
+  }
+  .accordion-item .accordion-button {
+    font-size: 15px;
+  }
+  /* FAQ part end  */
 }
 
 /* Small devices (576px - 767.98px) */
@@ -213,6 +221,14 @@
     top: -4px;
   }
   /* box past E  */
+  /* FAQ part Start  */
+  .FAQ-river h1 {
+    font-size: 35px;
+  }
+  .accordion-item .accordion-button {
+    font-size: 15px;
+  }
+  /* FAQ part end  */
 }
 
 /* Medium devices (768px - 999.98px) */
@@ -283,9 +299,15 @@
   /* why choose rivertel part E */
   /* box part S  */
   .custom-col h2 {
-  font-size: 24px;
-}
+    font-size: 24px;
+  }
   /* box part E  */
+  /* FAQ part Start  */
+
+  .accordion-item .accordion-button {
+    font-size: 18px;
+  }
+  /* FAQ part end  */
 }
 
 /* Semi-medium (1000px - 1199.98px) */

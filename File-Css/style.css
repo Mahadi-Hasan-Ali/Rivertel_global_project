@@ -670,9 +670,59 @@ main {
   position: absolute;
   top: 132px;
 }
-
 /* Box part E  */
 
 /* Why schoose rivertel part end  */
+/* FAQ part Start  */
+.FAQ-river h1 {
+  font-family: var(--font_style);
+  font-size: 55px;
+}
+/* Accordion question part S  */
+/* default arrow hide */
+.accordion-button::after {
+  display: none !important;
+}
+
+/* When collasped only + will be shown  */
+.accordion-button .fa-minus {
+  display: none;
+}
+.accordion-button.collapsed .fa-plus {
+  display: inline-block;
+}
+.accordion-button.collapsed .fa-minus {
+  display: none;
+}
+
+/* when open only - will be shown  */
+.accordion-button:not(.collapsed) .fa-plus {
+  display: none;
+}
+.accordion-button:not(.collapsed) .fa-minus {
+  display: inline-block;
+}
+
+/* focus style remove */
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-item .accordion-button {
+  font-family: var(--font_style);
+  font-size: 22px;
+  margin: 10px 10px 0px 0px;
+}
+.accordion-item .accordion-body {
+  font-weight: 500;
+  font-size: 20px;
+}
+/* Accordion open হলে background রঙ change */
+.accordion-button:not(.collapsed) {
+  background-color: #f2ff46 !important;
+  color: #000 !important; /* to make text black */
+}
+
+/* Accordion question part E  */
+/* FAQ part end  */
 
 /* Main Content area End  */
