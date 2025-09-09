@@ -124,6 +124,14 @@
     font-size: 15px;
   }
   /* FAQ part end  */
+  /* Reach out part S  */
+  .Reach-out .left-Part h1 {
+    font-size: 30px;
+  }
+  .Reach-out .left-Part p {
+    font-size: 15px;
+  }
+  /* Reach out part E  */
 }
 
 /* Small devices (576px - 767.98px) */
@@ -229,6 +237,14 @@
     font-size: 15px;
   }
   /* FAQ part end  */
+  /* Reach out part S  */
+  .Reach-out .left-Part h1 {
+    font-size: 35px;
+  }
+  .Reach-out .left-Part p {
+    font-size: 15px;
+  }
+  /* Reach out part E  */
 }
 
 /* Medium devices (768px - 999.98px) */
@@ -308,6 +324,14 @@
     font-size: 18px;
   }
   /* FAQ part end  */
+  /* Reach out part S  */
+  .Reach-out .left-Part h1 {
+    font-size: 40px;
+  }
+  .Reach-out .left-Part p {
+    font-size: 19px;
+  }
+  /* Reach out part E  */
 }
 
 /* Semi-medium (1000px - 1199.98px) */
@@ -361,4 +385,9 @@
     font-size: 20px;
   }
   /* why choose rivertel part E */
+  /* Reach out part S  */
+  .Reach-out .left-Part h1 {
+    font-size: 50px;
+  }
+  /* Reach out part E  */
 }
